@@ -1,0 +1,122 @@
+
+
+/* video background */
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -90;
+}
+
+/* page content */
+
+body {
+  font-family: Trebuchet MS;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+t1 {
+  color: white;
+  
+}
+
+
+
+
+
+h2 { font-size: 3rem; }
+
+
+
+main {
+  background-color: #9badb7;
+  font-size: 2rem;
+ 
+  padding: 1px;
+  position: relative;
+}
+.title{
+  display: block;
+  margin-top: 15%;
+  margin-bottom: 10%;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+z-index: 1;
+object-fit: cover;
+
+}
+.headEnd{
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  
+}
+.arrow{
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 13%;
+margin-left: auto;
+margin-right: auto;
+width: 2%;
+z-index: 1;
+}
+
+.subheadding{
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 0%;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+z-index: 1;
+object-fit: cover;
+
+}
+.Aboutsubheadding{
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 0%;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+z-index: 1;
+object-fit: cover;
+
+}
+@media screen and (max-width: 1000px) {
+
+  .arrow {display:none;}
+
+}
+
+
+.wrapper {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+}
+
+.shopItem{
+  display: block;
+  margin-top: 15%;
+  margin-bottom: 10%;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+z-index: 1;
+object-fit: cover;
+}
