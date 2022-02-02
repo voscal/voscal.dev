@@ -105,18 +105,29 @@ object-fit: cover;
 
 
 .wrapper {
-   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
 }
 
 .shopItem{
   display: block;
   margin-top: 15%;
   margin-bottom: 10%;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-z-index: 1;
-object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  z-index: 1;
+ 
+}
+
+.gameTitle{
+  display: block;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  z-index: 1;
+  text-align: center;
 }
